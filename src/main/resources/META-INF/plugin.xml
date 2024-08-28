@@ -1,0 +1,48 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>com.txl.hosts</id>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+    <name>hosts</name>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor email="tong.xl@outlook.com">tongxiaolong</vendor>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+    <description>
+        <![CDATA[
+        插件的主要功能包括：
+
+        直观的界面布局：插件显示在 Maven 选项卡下方，提供一个清晰的界面布局。左侧为主机列表，右侧为当前选定主机的详细内容。
+
+        主机管理：你可以在左侧列表中添加、删除或切换主机，实时查看并编辑主机的详细内容。
+
+        自动配置存储：插件自动创建并管理主机配置文件。如果配置文件不存在，插件会自动生成并初始化，确保所有主机配置得到保存。
+
+        便捷的操作：通过简单的点击和操作，用户可以快速访问、添加和编辑主机配置，无需手动操作配置文件。
+
+        这个插件旨在提升你的开发效率，让你在工作中能够更加便捷地管理和切换主机配置。
+        ]]>
+    </description>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <!-- Extension points defined by the plugin.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
+    <extensions defaultExtensionNs="com.intellij">
+
+    </extensions>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Hosts"
+                    factoryClass="com.txl.hosts.HostsToolWindowFactory"
+                    anchor="right"
+                    />
+    </extensions>
+</idea-plugin>
