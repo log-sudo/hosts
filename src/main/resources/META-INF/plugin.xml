@@ -5,7 +5,7 @@
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
-    <name>hosts</name>
+    <name>Hosts</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
     <vendor email="tong.xl@outlook.com">tongxiaolong</vendor>
@@ -14,19 +14,18 @@
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description>
-        <![CDATA[
-        插件的主要功能包括：
+        This plugin offers a seamless interface for managing and configuring hosts directly within the Maven tab of your IDE. With a user-friendly layout, it helps developers efficiently manage multiple host configurations without manual intervention.
 
-        直观的界面布局：插件显示在 Maven 选项卡下方，提供一个清晰的界面布局。左侧为主机列表，右侧为当前选定主机的详细内容。
+        Key features include:
+        - **Intuitive Interface Layout**: The plugin is integrated under the Maven tab, providing a clean layout. On the left side, you can view a list of hosts, while the right side displays detailed information for the currently selected host.
 
-        主机管理：你可以在左侧列表中添加、删除或切换主机，实时查看并编辑主机的详细内容。
+        - **Host Management**: Easily add, delete, or switch between hosts using the left panel. The plugin provides real-time viewing and editing capabilities for each host’s configuration.
 
-        自动配置存储：插件自动创建并管理主机配置文件。如果配置文件不存在，插件会自动生成并初始化，确保所有主机配置得到保存。
+        - **Automatic Configuration Storage**: The plugin automatically creates and manages host configuration files. If a configuration file doesn’t exist, it will generate and initialize it, ensuring all host configurations are properly stored and maintained.
 
-        便捷的操作：通过简单的点击和操作，用户可以快速访问、添加和编辑主机配置，无需手动操作配置文件。
+        - **Convenient Operations**: Users can quickly access, add, and edit host configurations with simple clicks, eliminating the need to manually manage configuration files.
 
-        这个插件旨在提升你的开发效率，让你在工作中能够更加便捷地管理和切换主机配置。
-        ]]>
+        This plugin is designed to boost your development productivity by streamlining the process of managing and switching between multiple host configurations.
     </description>
 
     <!-- Product and plugin compatibility requirements.
