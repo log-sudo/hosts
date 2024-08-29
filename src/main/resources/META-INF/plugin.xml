@@ -42,6 +42,7 @@
         <toolWindow id="Hosts"
                     factoryClass="com.txl.hosts.HostsToolWindowFactory"
                     anchor="right"
+                    icon="META-INF/icon.svg"
                     />
     </extensions>
 </idea-plugin>
