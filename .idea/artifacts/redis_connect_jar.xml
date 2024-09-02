@@ -1,6 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="redis_connect:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/redis_connect_jar</output-path>
-    <root id="archive" name="redis_connect.jar" />
-  </artifact>
-</component>
